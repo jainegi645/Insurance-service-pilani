@@ -7,7 +7,7 @@ module.exports = {
         primaryColor: "rgb(1,48,62)",
       },
       translate: {
-        '9/9': "300%",
+        hide: "300px",
       },
     },
   },
