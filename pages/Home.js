@@ -7,7 +7,7 @@ import hero from "../images/hero.jpg";
 
 function Home() {
   return (
-    <div className="bg-primaryColor h-screen">
+    <div className="hero-bg  h-screen">
       <Navbar />
 
       <div className="flex items-center content-center max-h-screen justify-between px-5 mt-9 md:p-10 border-blue-900">
