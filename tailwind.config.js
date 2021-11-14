@@ -4,11 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: "rgb(1,48,62)",
+        primaryColor: "#006266",
       },
       translate: {
         hide: "300px",
       },
+      fontFamily: {
+        'serif': ['ui-serif', 'Georgia', 'Tinos'],
+
+       }
     },
   },
   variants: {

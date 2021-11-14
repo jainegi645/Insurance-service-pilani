@@ -1,13 +1,14 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+// import Navbar from "../components/Navbar";
+// import Drawer from "../components/Drawer";
+import Home from "./Home";
+import Cards from '../components/Cards'
 
-
-export default function Home() {
+export default function Index() {
   return (
-    <div >
-    <Navbar/>
-    hey is it visible
-    
+    <div>
+      <Home />
+      <Cards/>
     </div>
-  )
+  );
 }
