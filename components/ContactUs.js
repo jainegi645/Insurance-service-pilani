@@ -1,5 +1,7 @@
 import React from "react";
 import GetQuote from "./GetQuote";
+import ContactMap from "./ContactMap";
+import Fotter from "./Fotter";
 
 
 function ContactUs() {
@@ -47,7 +49,8 @@ function ContactUs() {
       </button>
       </div>
     </div>
-    <GetQuote/>
+    <ContactMap/>
+    <Fotter/>
 
     </>
   );

@@ -7,7 +7,7 @@ function WhyUs() {
     <div>
       <Promises />
 
-      <div className='px-5 lg:flex lg:px-24 lg:mt-4'>
+      <div className=' px-5 lg:flex lg:px-24 lg:mt-4'>
 
         <div className ='px-6 py-16 lg:py-28 text-center'>
           <img className="m-auto pb-8" src="https://img.icons8.com/color/64/000000/service.png" />
