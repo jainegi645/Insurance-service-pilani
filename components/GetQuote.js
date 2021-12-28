@@ -1,5 +1,7 @@
 import React from "react";
 import Fotter from "./Fotter";
+import { motion } from "framer-motion";
+
 
 function GetQuote() {
   return (

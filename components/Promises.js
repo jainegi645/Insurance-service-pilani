@@ -2,9 +2,9 @@ import React from 'react';
 
 function Promises() {
     return (
-        <div className=' px-5 mt-12 lg:mt-20 lg:flex justify-between items-center content-center lg:px-20'>
+        <div className=' px-5 mt-16 lg:mt-20 lg:flex justify-between items-center content-center lg:px-20'>
             <div className='max-w-2xl'>
-            <p className='text-base lg:text-lg pill tracking-wider bg-blue-100 w-36 lg:w-36 px-4 py-2 rounded-full'>Our Promises</p>
+            <p className='text-base lg:text-lg pill tracking-wider bg-blue-100 w-36 lg:w-40 px-4 py-2 rounded-full'>Our Promises</p>
             <p className="heading-color font-bold text-4xl pt-3 lg:text-6xl ">We Promise to Always Try and Give The Best</p>
             </div>
             <div>

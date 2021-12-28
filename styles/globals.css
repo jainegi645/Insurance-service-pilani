@@ -4,7 +4,10 @@
 
 
 * {
-  font-family: "Tinos", serif;
+  /* font-family: "Tinos", serif; */
+  font-family: 'Asap', sans-serif;
+
+  /* font-family: 'Karla', sans-serif; */
 }
 
 .glass-effect {
@@ -14,6 +17,9 @@
 }
 .custom-width {
   width: 145px;
+}
+.custom-width_we-love{
+  width: 160px;
 }
 .hero-bg {
   background-color: #00767b;
@@ -46,8 +52,8 @@
 }
 
 .hero-borderRadius{
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 .familyPic-borderRadius{
   border-bottom-right-radius: 30px;

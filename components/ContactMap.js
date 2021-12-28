@@ -1,9 +1,13 @@
-import React from "react";
+import React,{useState} from "react";
 
 function ContactMap() {
+  const[email,setEmail]=useState();
+  const[message,setMessage]=useState();
+
+  console.log(email,message);
   return (
     <div>
-      <section className="text-gray-600 body-font  lg:mt-24  ">
+      <section className="text-gray-600 body-font mt-4 lg:mt-8  ">
         <div className="container px-5 py-24 mx-auto md:flex sm:flex-nowrap flex-wrap border-gray-300 rounded-lg shadow-2xl bg-white relative z-0 -bottom-10  md:-bottom-14 ">
           <div className="w-full py-40  md:py-10 md:px-10  lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10  flex items-end justify-start relative">
             <iframe
@@ -12,9 +16,10 @@ function ContactMap() {
               className="absolute inset-0"
               frameborder="0"
               title="map"
-              marginheight="0"
-              marginwidth="0"
-              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              Scrolling="false"
+             
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.8712756779482!2d75.59082601458027!3d28.362741102991976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131929058978db%3A0x4e0283e05772e0!2sInsurance%20Service%20Pilani!5e0!3m2!1sen!2sin!4v1638887950122!5m2!1sen!2sin"
             ></iframe>
 
@@ -24,21 +29,21 @@ function ContactMap() {
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  Nutan Market,Pilani 333031 (JJN) Raj. <br />
-                  Prop. Ajeet Singh Shekhawat
+                  Nutan Market,Pilani 333031 (JJN) <br />
+                  Mr. Ajeet Singh Shekhawat
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-indigo-500 leading-relaxed">
+                <a href="mailto: insuranceservicepilani@gmail.com" className="text-indigo-500 leading-relaxed">
                   insuranceservicepilani@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   Mobile No
                 </h2>
-                <p className="leading-relaxed">9540623407, 8696941407</p>
+                <p className="leading-relaxed">9540623407</p>
               </div>
             </div>
           </div>
@@ -62,29 +67,34 @@ function ContactMap() {
               />
             </div>
             <div className="relative mb-4">
-              <label for="email" className="leading-7 text-sm text-gray-600">
+              <label for="email" className="leading-7 text-sm md:text-xl text-gray-600">
                 Email
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
+                value={email}
+                onChange={(e)=>setEmail(e.target.value)}
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
+
             <div className="relative mb-4">
-              <label for="message" className="leading-7 text-sm text-gray-600">
+              <label for="message" className="leading-7 text-sm md:text-xl text-gray-600">
                 Message
               </label>
               <textarea
+              value={message}
+              onChange={(e)=>setMessage(e.target.value)}
                 id="message"
                 name="message"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <a href = "mailto:jainegi645@gmail.com" target='_blank' className="inline-block text-white text-center bg-yellow-500 border-0 py-2 px-6 focus:outline-none  rounded text-lg">
               Submit
-            </button>
+            </a>
           </div>
         </div>
       </section>
