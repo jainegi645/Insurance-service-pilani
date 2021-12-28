@@ -38,7 +38,7 @@ function Family() {
          whileHover={{
           y:-3
         }}        
-        className="bg-yellow-500 text-white font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl  shadow-yellow-400/100 mt-12 lg:mt-14">
+        className="bg-yellow-500 text-white font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl   mt-12 lg:mt-14">
           Learn More
         </motion.button>
 
@@ -52,7 +52,7 @@ function Family() {
 
           <div className="w-28 ">
             <p className="heading-color font-bold text-4xl lg:text-5xl">47+ </p>
-            <p className="text-gray-500 lg:text-lg custom-width">Newborn Baby Protected</p>
+            <p className="text-gray-500 lg:text-lg custom-width_newborn-baby">Newborn Baby Protected</p>
           </div>
         </div>
       </div>

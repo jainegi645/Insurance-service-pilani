@@ -55,7 +55,7 @@ function Home() {
           y:-3
         }}        
         href="tel:9540623407"
-        className="bg-yellow-500 font-normal text-xl tracking-wide px-6 py-2 rounded-full  mt-12 md:mt-24 inline-block shadow-xl shadow-yellow-300/20"
+        className="bg-yellow-500 font-normal text-xl tracking-wide px-6 py-2 rounded-full  mt-12 md:mt-24 inline-block shadow-xl "
         >
             Call Now
           </motion.a>
