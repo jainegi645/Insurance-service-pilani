@@ -1,14 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
-import heroImg from "../images/hero-img.png";
-import hero from "../images/hero.jpg";
-import heroimg from "../images/hero-img2.gif";
-import family1 from "../images/family1.png";
-import HeroImg from "../images/HeroImg.png";
-import HeroImgCopy from "../images/HeroImg-copy.png";
 import heroCropped from "../images/hero-cropped.jpg";
-import herofinal from "../images/herofinal.jpg";
 import { motion } from "framer-motion";
 // import { Button } from "@material-ui/core";
 

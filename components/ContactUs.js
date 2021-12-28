@@ -3,6 +3,8 @@ import GetQuote from "./GetQuote";
 import ContactMap from "./ContactMap";
 import Fotter from "./Fotter";
 import { motion } from "framer-motion";
+import whatsup from "../images/whatsup.png";
+import Image from "next/image";
 
 
 function ContactUs() {
@@ -29,11 +31,14 @@ function ContactUs() {
 
       }}
       className="border-gray-500 shadow-xl rounded-2xl px-6 py-16 lg:py-20 text-center lg:max-w-xs">
-        <img
+        {/* <img
           className="m-auto  pb-8"
           src="https://img.icons8.com/color/64/000000/service.png"
-        />
-        <p className="text-primaryColor font-bold text-xl">Drop a mail</p>
+        /> */}
+        <div className="m-auto pb-11"> 
+        <Image  alt="whatsup img"  width="48px" height="48px" src = {whatsup} />
+        </div>
+        <p className="text-primaryColor font-bold text-xl">Drop a Text</p>
         <p className="text-gray-600 pt-4 lg:text-xl">
           An easy and effortless way to know about our services.
         </p>
@@ -49,10 +54,11 @@ function ContactUs() {
         boxShadow:" 13px 14px 12px -3px rgba(0,0,0,0.40)",
       }}
        className="border-gray-500 shadow-2xl rounded-2xl px-6 py-16 lg:py-20 text-center lg:max-w-xs">
-        <img
+        {/* <img
           className="m-auto  pb-8"
           src="https://img.icons8.com/color/64/000000/service.png"
-        />
+        /> */}
+        <img className="m-auto  pb-8" src="https://img.icons8.com/fluency/64/000000/online-support.png"/>
         <p className="text-primaryColor font-bold text-xl">Contact Us</p>
         <p className="text-gray-600 pt-4 lg:text-xl">
           Get on a call with our insurance expert to find your best suit.
