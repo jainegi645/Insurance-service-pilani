@@ -65,3 +65,11 @@
 .padding-bottom_whatsup-icon{
   padding-bottom: 180px;
 }
+.hide-navigation{
+  right: -225px;
+
+}
+.mobileNav-header{
+  font-size: 1.2rem;
+    line-height: 2rem;
+}

@@ -15,11 +15,11 @@ function ContactMap() {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameborder="0"
+              frameBorder="0"
               title="map"
               marginHeight="0"
               marginWidth="0"
-              Scrolling="false"
+              scrolling="false"
              
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.8712756779482!2d75.59082601458027!3d28.362741102991976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131929058978db%3A0x4e0283e05772e0!2sInsurance%20Service%20Pilani!5e0!3m2!1sen!2sin!4v1638887950122!5m2!1sen!2sin"
             ></iframe>
@@ -57,7 +57,7 @@ function ContactMap() {
             Getting a quote is quick and simple
             </p>
             <div className="relative mb-4 text-sm md:text-xl">
-              <label for="name" className="leading-7  text-gray-600">
+              <label htmlFor="name" className="leading-7  text-gray-600">
                 Name
               </label>
               <input
@@ -70,7 +70,7 @@ function ContactMap() {
               />
             </div>
             <div className="relative mb-4">
-              <label for="email" className="leading-7 text-sm md:text-xl text-gray-600">
+              <label htmlFor="email" className="leading-7 text-sm md:text-xl text-gray-600">
                 Email
               </label>
               <input
@@ -84,7 +84,7 @@ function ContactMap() {
             </div>
 
             <div className="relative mb-4">
-              <label for="message" className="leading-7 text-sm md:text-xl text-gray-600">
+              <label htmlFor="message" className="leading-7 text-sm md:text-xl text-gray-600">
                 Message
               </label>
               <textarea
@@ -95,7 +95,7 @@ function ContactMap() {
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <a href = {"mailto: insuranceservicepilani@gmail.com?Subject=Query%20regarding%20insurance%20sservices&body=Hi,%20myself%20"+ name + "/n" + message} target='_blank' className="inline-block text-white text-center bg-yellow-500 border-0 py-2 px-6 focus:outline-none  rounded text-lg">
+            <a href = {"mailto: insuranceservicepilani@gmail.com?Subject=Query%20regarding%20insurance%20sservices&body=Hi,%20myself%20"+ name + "%0A" + message} target='_blank' className="inline-block text-white text-center bg-yellow-500 border-0 py-2 px-6 focus:outline-none  rounded text-lg">
               Submit
             </a>
           </div>
