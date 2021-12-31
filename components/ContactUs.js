@@ -10,7 +10,7 @@ import Image from "next/image";
 function ContactUs() {
   return (
     <>
-    <div className="px-5 lg:flex lg:px-24 lg:mt-9 mt-16  lg:space-x-6 space-x-0">
+    <div  id="contact" className="px-5 lg:flex lg:px-24 lg:mt-9 mt-16  lg:space-x-6 space-x-0">
       <div className=" lg:max-w-lg lg:pt-32">
         <p className="text-base lg:text-lg pill tracking-wider bg-blue-100 w-24 lg:w-24 px-3 py-2 rounded-full">
           Support

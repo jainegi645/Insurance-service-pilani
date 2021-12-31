@@ -1,7 +1,8 @@
 import React,{useState} from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logoremovebg.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import {Link} from 'react-scroll';
 
 function Navbar() {
   const[size,setSize] = useState(`0px`);
@@ -22,60 +23,74 @@ function Navbar() {
             Insurance Service Pilani
           </p>
         </div>
-        <ul className="hidden lg:flex text-white ">
-          <motion.li
-            whileHover={{
-              y: -3,
-            }}
+        <ul className="hidden md:flex text-white ">
+          <Link
+            to="home"
+            smooth={true}
+            duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10 rounded-sm px-5 py-2 cursor-pointer"
           >
             Home
-          </motion.li>
-          <motion.li
-            whileHover={{
-              y: -3,
-            }}
+          </Link>
+          <Link
+            to="whyus"
+            smooth={true}
+            duration={1000}
+            className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
+          >
+            Why Us
+          </Link>
+          <Link
+              to="testimonials"
+              smooth={true}
+              duration={1000}
+            className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
+          >
+            Testimonials
+          </Link>
+          <Link
+           to="about"
+           smooth={true}
+           duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
           >
             About Us
-          </motion.li>
-          <motion.li
-            whileHover={{
-              y: -3,
-            }}
-            className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
-          >
-            Products
-          </motion.li>
-          <motion.li
-            whileHover={{
-              y: -3,
-            }}
+          </Link>
+
+          <Link
+           to="contact"
+           smooth={true}
+           duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
           >
             Contact Us
-          </motion.li>
+          </Link>
         </ul>
 
         <img
           src="https://img.icons8.com/cotton/68/000000/menu.png"
-          className="w-10 h-10 lg:hidden"
+          className="w-10 h-10 md:hidden"
           onClick={openNavbar}
         />
       </nav>
 
-      <div className="fixed z-10 bg-white top-0 right-0 h-screen md:hidden ease-in-out" style={{width:size}}>
+      <div className="fixed z-10 bg-white top-0 right-0 h-screen  ease-in-out" style={{width:size}}>
         <div className="pt-8 pl-3 w-11"  onClick={closeNavbar}>
         <img src="https://img.icons8.com/ios-glyphs/30/000000/long-arrow-right.png"/> 
         </div>
           <div className="mobileNav-header pt-4 px-3 font-bold py-1 text-primaryColor">Insurance Service Pilani </div> 
-        <nav className="grid mt-14 ">
-          <ul className=" space-x-8 space-y-10">
-            <li className=" ml-8 text-lg border border-b-yellow-400 ">Home</li>
-            <li className="text-lg border border-b-yellow-400">why Us</li>
-            <li className="text-lg border border-b-yellow-400">Testimonials</li>
-            <li className="text-lg border border-b-yellow-400">About Us</li>
-            <li className="text-lg border border-b-yellow-400">Contact Us</li>
+        <nav className=" mt-14 ">
+          <ul className="grid space-x-8 space-y-10">
+            <Link to="home"  smooth={true}
+            duration={1000} className=" ml-8 text-lg border border-b-yellow-400 ">Home</Link>
+            <Link to="whyus"  smooth={true}
+            duration={1000} className="text-lg border border-b-yellow-400">why Us</Link>
+            <Link to="testimonials"  smooth={true}
+            duration={1000} className="text-lg border border-b-yellow-400">Testimonials</Link>
+            <Link to="about"  smooth={true}
+            duration={1000} className="text-lg border border-b-yellow-400">About Us</Link>
+            <Link to="contact"  smooth={true}
+            duration={1000} className="text-lg border border-b-yellow-400">Contact Us</Link>
           </ul>
           <div className="flex pt-6 justify-center space-x-4">
             <a href="https://www.instagram.com/insuranceservicepilani/" className='w-10 h-2/4 lg:w-11 lg:h-2/4 cursor-pointer' target='_blank'> 

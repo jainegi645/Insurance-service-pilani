@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div className="hero-bg  h-screen">
+    <div id="home" className="hero-bg  h-screen">
       <Navbar />
 
-      <div className="flex  max-h-screen justify-between px-5 mt-9 md:px-24 md:mt-14 border-blue-900">
+      <div  className="flex  max-h-screen justify-between px-5 mt-9 md:px-24 md:mt-14 border-blue-900">
         <div className=" text-white  max-w-md md:max-w-xl ">
           <motion.p
            initial={{ opacity: 0 }}
@@ -32,13 +32,6 @@ function Home() {
          className="text-lg tracking-wider pt-8 text-gray-200">
             Celebrate all life's moment knowing the ones you love are protected
           </motion.p>
-          {/* <motion.button 
-          initial={{ x: -250 }}
-        animate={{ x:0 }} 
-        transition={{delay:1.4, type:'spring', stiffness: 130}} 
-        className="bg-yellow-500 font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl mt-16 md:mt-24">
-            Call Now
-          </motion.button> */}
 
           <motion.a 
           initial={{ x: -250,y:0}}

@@ -29,18 +29,11 @@ function Fotter() {
             <li>NewBorn Insurance</li>
             <li>Another Insurance</li>
             <li>Another Insurance</li>
-            <li>Another Insurance</li>
+            <li>Another Insurance </li>
+
           </nav>
          
         </div>
-
-        {/* <div  className="lg:flex-col lg:mt-16 justify-center"> 
-        <p className='lg:text-2xl pb-4 tracking-wider'>Corporate Office-</p>
-          <p className='text-gray-300 tracking-wide'>Nutan Market,Pilani 333031 (JJN) Raj. </p>
-          <p className='text-gray-300 tracking-wide'>Prop. Ajeet Singh Shekhawat</p>
-          <p className='text-gray-300 tracking-wide'>E-mail: insuranceservicepilani@gmail.com</p>
-          <p className='text-gray-300 tracking-wide'>Mobile no- 9540623407, 8696941407</p>
-        </div> */}
       </div>
 
     <div>
