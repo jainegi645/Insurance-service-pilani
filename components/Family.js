@@ -19,13 +19,10 @@ function Family() {
       </div>
 
       <div className="px-5 mt-8 max-w-xl lg:mt-14">
-        <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }} 
-        transition={{delay:1}}
+        <p      
         className="text-base lg:text-lg pill tracking-wider bg-blue-100 w-32 lg:w-36 px-4 py-2 rounded-full ">
           Family First
-        </motion.p>
+        </p>
         <p className="heading-color font-bold text-4xl pt-3 lg:text-6xl ">
           Where Your Little Family Comes First
         </p>
@@ -38,7 +35,8 @@ function Family() {
          whileHover={{
           y:-3
         }}        
-        className="bg-yellow-500 text-white font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl   mt-12 lg:mt-14">
+        className="bg-yellow-500 text-slate-100
+         font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl   mt-12 lg:mt-14">
           Learn More
         </motion.button>
 

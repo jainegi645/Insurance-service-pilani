@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-scroll';
+
 
 function Fotter() {
   return (
@@ -25,11 +27,33 @@ function Fotter() {
 
         <div className="md:flex-col md:mt-16 lg:mt-16 justify-center hidden md:block">
         <p className='md:text-2xl text-xl pb-4 tracking-wider'>Our Products</p>
-          <nav className="list-none text-gray-300  tracking-wide">
-            <li>NewBorn Insurance</li>
-            <li>Another Insurance</li>
-            <li>Another Insurance</li>
-            <li>Another Insurance </li>
+          <nav className=" text-gray-300  tracking-wide grid">
+          <Link
+            to="products"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer "
+          >
+            Children Education Plan
+          </Link>           
+          <Link
+            to="products"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer "
+
+          >
+            Premium Retirement Plan
+          </Link>           
+          <Link
+            to="products"
+            smooth={true}
+            duration={1000}
+            className="cursor-pointer "
+
+          >
+            Wealthy Prince Plan
+          </Link>           
 
           </nav>
          

@@ -43,8 +43,8 @@ function ContactUs() {
           An easy and effortless way to know about our services.
         </p>
         <a target='_blank' href="https://api.whatsapp.com/send?phone=919540623407&text=Hi, I came from your website! I wanted to know about the Insurance services you offer. " 
-        className="cursor-pointer inline-block bg-green-500  text-white font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl mt-12 lg:mt-14">
-       Whatsup Text 
+        className="cursor-pointer inline-block bg-green-500  text-slate-100 font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl mt-12 lg:mt-14">
+       Whatsup Us 
       </a>
       </motion.div>
 
@@ -63,7 +63,7 @@ function ContactUs() {
         <p className="text-gray-600 pt-4 lg:text-xl">
           Get on a call with our insurance expert to find your best suit.
         </p>
-        <a target='_blank' href="tel:9540623407" className="cursor-pointer inline-block bg-yellow-500 text-white font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl mt-12 lg:mt-14">
+        <a target='_blank' href="tel:9540623407" className="cursor-pointer inline-block bg-yellow-500 text-slate-100 font-normal text-xl tracking-wide px-6 py-2 rounded-full shadow-2xl mt-12 lg:mt-14">
         Call Now
       </a>
       </motion.div>

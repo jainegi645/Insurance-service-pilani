@@ -5,25 +5,43 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 
 function Testimonial() {
-  const settings = {
-    dots:true,
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 2500,
-    cssEase: "linear"
-  };
+  // const settings = {
+  //   dots:true,
+  //   infinite: true,
+  //   slidesToShow: 2,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 1000,
+  //   autoplaySpeed: 2500,
+  //   cssEase: "linear"
+  // };
   const settingsSmall = {
     dots:true,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 2600,
-    cssEase: "linear"
+    cssEase: "linear",
+    responsive: [
+    
+      {
+        breakpoint: 791,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     
@@ -49,10 +67,11 @@ function Testimonial() {
 
 
           {/* for small screens */}
-          <div className="container px-5 lg:mt-16 mx-auto">
-          <div className="md:hidden">    
+          <div className=" container px-5 lg:mt-16 mx-auto">
+          <div className="">    
           <Slider {...settingsSmall} >
-            <div className="hidden md:block p-4 md:w-1/2 w-full">
+
+            <div className=" p-4  w-full">
               <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
                
                 <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
@@ -69,7 +88,7 @@ function Testimonial() {
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield
+                      Holden Caulfield1
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
@@ -77,7 +96,7 @@ function Testimonial() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/2 w-full">
+            <div className="p-4  w-full">
               <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
                
                 <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
@@ -94,7 +113,7 @@ function Testimonial() {
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield
+                      Holden Caulfield2
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
@@ -102,7 +121,7 @@ function Testimonial() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/2 w-full">
+            <div className="p-4 w-full">
               <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
                
                 <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
@@ -119,7 +138,7 @@ function Testimonial() {
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield
+                      Holden Caulfield3
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
@@ -127,7 +146,7 @@ function Testimonial() {
               </div>
             </div>
 
-            <div className="p-4 md:w-1/2 w-full">
+            <div className="p-4  w-full">
               <div className="h-full shadow-xl rounded-2xl border-gray-300 p-8 ">
                 
                 <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
@@ -151,13 +170,14 @@ function Testimonial() {
                 </a>
               </div>
             </div>
+
             </Slider>
           </div>
         </div>
 
 
           {/* after md screen size  */}
-        <div className="hidden md:block  container px-5 lg:mt-16 mx-auto">
+        {/* <div className="hidden md:block container px-5 lg:mt-16 mx-auto">
           <div >       
           <Slider {...settings} >
             <motion.div 
@@ -317,7 +337,7 @@ function Testimonial() {
     </Slider>
 
           </div>
-        </div>
+        </div> */}
 
       </section>
     </div>

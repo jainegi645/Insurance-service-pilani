@@ -10,7 +10,7 @@ function AboutUs() {
 
             <div className=" px-5 mt-12 lg:mt-32 lg:flex justify-between items-center content-center lg:px-10">
           <div className="max-w-2xl">
-            <p className="text-base lg:text-lg pill tracking-wider bg-blue-100 w-36 lg:w-36 px-4 py-2 rounded-full">
+            <p className="text-base lg:text-lg pill tracking-wider bg-blue-100 w-28 lg:w-32 px-4 py-2 rounded-full">
               About Us
             </p>
             <p className="heading-color font-bold text-4xl pt-3 lg:text-6xl ">

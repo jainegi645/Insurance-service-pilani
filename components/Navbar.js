@@ -33,6 +33,15 @@ function Navbar() {
             Home
           </Link>
           <Link
+            to="products"
+            smooth={true}
+            duration={1000}
+            className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10 rounded-sm px-5 py-2 cursor-pointer"
+          >
+            Products
+          </Link>
+          
+          <Link
             to="whyus"
             smooth={true}
             duration={1000}
@@ -82,15 +91,17 @@ function Navbar() {
         <nav className=" mt-14 ">
           <ul className="grid space-x-8 space-y-10">
             <Link to="home"  smooth={true}
-            duration={1000} className=" ml-8 text-lg border border-b-yellow-400 ">Home</Link>
+            duration={1000} className=" ml-8 text-lg border-b-2 border-b-yellow-400 ">Home</Link>
+            <Link to="products"  smooth={true}
+            duration={1000} className=" ml-8 text-lg border-b-2 border-b-yellow-400 ">Products</Link>
             <Link to="whyus"  smooth={true}
-            duration={1000} className="text-lg border border-b-yellow-400">why Us</Link>
+            duration={1000} className="text-lg border-b-2 border-b-yellow-400">why Us</Link>
             <Link to="testimonials"  smooth={true}
-            duration={1000} className="text-lg border border-b-yellow-400">Testimonials</Link>
+            duration={1000} className="text-lg border-b-2 border-b-yellow-400">Testimonials</Link>
             <Link to="about"  smooth={true}
-            duration={1000} className="text-lg border border-b-yellow-400">About Us</Link>
+            duration={1000} className="text-lg border-b-2 border-b-yellow-400">About Us</Link>
             <Link to="contact"  smooth={true}
-            duration={1000} className="text-lg border border-b-yellow-400">Contact Us</Link>
+            duration={1000} className="text-lg border-b-2 border-b-yellow-400">Contact Us</Link>
           </ul>
           <div className="flex pt-6 justify-center space-x-4">
             <a href="https://www.instagram.com/insuranceservicepilani/" className='w-10 h-2/4 lg:w-11 lg:h-2/4 cursor-pointer' target='_blank'> 
