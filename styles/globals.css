@@ -87,7 +87,7 @@
   width: 100%;
      
   position: relative;
-  background: rgb(234,179,8);
+  background: rgba(234, 178, 8, 0.904);
   /* color: black; */
   text-align: center;
   /* padding: 1em 2em; */
@@ -98,7 +98,7 @@
   position: absolute;
   display: block;
   bottom: -1em;
-  border: 1.5em solid rgb(234,179,8);
+  border: 1.5em solid rgba(234, 178, 8, 0.877);
   z-index: -1;
  }
  .ribbon:before {
@@ -116,7 +116,7 @@
   position: absolute;
   display: block;
   border-style: solid;
-  border-color: rgb(234,179,8) transparent transparent transparent;
+  border-color: rgba(234, 178, 8, 0.904) transparent transparent transparent;
   bottom: -1em;
  }
  .ribbon .ribbon-content:before {
@@ -127,3 +127,5 @@
   right: 0;
   border-width: 1em 1em 0 0;
  }
+
+ /* rgba(234, 178, 8, 0.904)*/

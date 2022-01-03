@@ -80,19 +80,19 @@ function Testimonial() {
                   Tacos pinterest fanny pack venmo, post-ironic heirloom
                   try-hard pabst authentic iceland.
                 </p>
-                <a className="inline-flex items-center">
-                  <img
+                <div className="inline-flex items-center">
+                  {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                  /> */}
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
                       Holden Caulfield1
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
-                </a>
+                </div>
               </div>
             </div>
 
@@ -105,19 +105,19 @@ function Testimonial() {
                   Tacos pinterest fanny pack venmo, post-ironic heirloom
                   try-hard pabst authentic iceland.
                 </p>
-                <a className="inline-flex items-center">
-                  <img
+                <div className="inline-flex items-center">
+                  {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                  /> */}
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
                       Holden Caulfield2
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
-                </a>
+                </div>
               </div>
             </div>
 
@@ -130,19 +130,19 @@ function Testimonial() {
                   Tacos pinterest fanny pack venmo, post-ironic heirloom
                   try-hard pabst authentic iceland.
                 </p>
-                <a className="inline-flex items-center">
-                  <img
+                <div className="inline-flex items-center">
+                  {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                  /> */}
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
                       Holden Caulfield3
                     </span>
                     <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                   </span>
-                </a>
+                </div>
               </div>
             </div>
 

@@ -3,7 +3,7 @@ import React from "react";
 function AboutUs() {
   return (
     <div id="about">
-      <section  className="text-gray-600 body-font">
+      <section  className="text-gray-600 body-font ">
         <div className="container px-5 mt-14 lg:mt-20 mx-auto flex flex-col">
           <div className="lg:w-full mx-auto">
           
@@ -24,7 +24,7 @@ function AboutUs() {
           </div>
         </div>
 
-            <div className="flex flex-col sm:flex-row mt-12 lg:mt-16">
+            <div className="flex flex-col sm:flex-row mt-12 lg:mt-16 shadow-2xl rounded-xl">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                   <svg

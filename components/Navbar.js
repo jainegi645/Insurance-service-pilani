@@ -26,6 +26,7 @@ function Navbar() {
         <ul className="hidden md:flex text-white ">
           <Link
             to="home"
+            href="home"
             smooth={true}
             duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10 rounded-sm px-5 py-2 cursor-pointer"
@@ -34,6 +35,7 @@ function Navbar() {
           </Link>
           <Link
             to="products"
+            href="products"
             smooth={true}
             duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10 rounded-sm px-5 py-2 cursor-pointer"
@@ -43,6 +45,7 @@ function Navbar() {
           
           <Link
             to="whyus"
+            href="whyus"
             smooth={true}
             duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
@@ -51,6 +54,7 @@ function Navbar() {
           </Link>
           <Link
               to="testimonials"
+              href="testimonials"
               smooth={true}
               duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
@@ -59,6 +63,7 @@ function Navbar() {
           </Link>
           <Link
            to="about"
+           href="about"
            smooth={true}
            duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
@@ -68,6 +73,7 @@ function Navbar() {
 
           <Link
            to="contact"
+           href="contact"
            smooth={true}
            duration={1000}
             className=" hover:bg-yellow-500 hover:shadow-xl hover:shadow-yellow-300/10  rounded-sm px-4 py-2 cursor-pointer"
@@ -79,6 +85,7 @@ function Navbar() {
         <img
           src="https://img.icons8.com/cotton/68/000000/menu.png"
           className="w-10 h-10 md:hidden"
+          alt="mobile drawer"
           onClick={openNavbar}
         />
       </nav>
@@ -90,28 +97,28 @@ function Navbar() {
           <div className="mobileNav-header  px-3 font-bold py-1 text-primaryColor">Insurance Service Pilani </div> 
         <nav className=" mt-2 ">
           <ul className="grid space-x-8 space-y-10">
-            <Link to="home"  smooth={true}
+            <Link to="home" href="home"  smooth={true}
             duration={1000} className=" ml-8 text-lg border-b-2 border-b-yellow-400 ">Home</Link>
-            <Link to="products"  smooth={true}
+            <Link to="products" href="products" smooth={true}
             duration={1000} className=" ml-8 text-lg border-b-2 border-b-yellow-400 ">Products</Link>
-            <Link to="whyus"  smooth={true}
+            <Link to="whyus" href="whyus" smooth={true}
             duration={1000} className="text-lg border-b-2 border-b-yellow-400">why Us</Link>
-            <Link to="testimonials"  smooth={true}
+            <Link to="testimonials" href="testimonials" smooth={true}
             duration={1000} className="text-lg border-b-2 border-b-yellow-400">Testimonials</Link>
-            <Link to="about"  smooth={true}
+            <Link to="about"href="about"  smooth={true}
             duration={1000} className="text-lg border-b-2 border-b-yellow-400">About Us</Link>
-            <Link to="contact"  smooth={true}
+            <Link to="contact" href="contact" smooth={true}
             duration={1000} className="text-lg border-b-2 border-b-yellow-400">Contact Us</Link>
           </ul>
           <div className="flex pt-6 ml-7 space-x-4">
             <a href="https://www.instagram.com/insuranceservicepilani/" className='w-10 h-2/4 lg:w-11 lg:h-2/4 cursor-pointer' target='_blank'> 
-            <img src="https://img.icons8.com/fluency/40/000000/instagram-new.png" />
+            <img src="https://img.icons8.com/fluency/40/000000/instagram-new.png" alt='insta' />
             </a>
             <a href="https://www.facebook.com/insuranceservicepilani/" className='w-10 h-2/4 lg:w-11 lg:h-2/4 cursor-pointer' target='_blank'>
-            <img  src="https://img.icons8.com/fluency/40/000000/facebook.png" />
+            <img  src="https://img.icons8.com/fluency/40/000000/facebook.png" alt="facebook"/>
             </a>
             <a href='https://goo.gl/maps/5n3KMaxyvccE9rrGA'  className='w-10 h-1/4 lg:w-10 lg:h-2/4 cursor-pointer' target='_blank' > 
-            <img href='https://goo.gl/maps/5n3KMaxyvccE9rrGA'  src="https://img.icons8.com/color/40/000000/google-maps.png" />
+            <img href='https://goo.gl/maps/5n3KMaxyvccE9rrGA' alt="google map" src="https://img.icons8.com/color/40/000000/google-maps.png" />
             </a>
           </div>
         </nav>
