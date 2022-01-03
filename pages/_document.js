@@ -16,7 +16,12 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           
+          <title>insurance service pilani</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="life insurance for your love ones "/>
         </Head>
+       
         <body>
           <Main />
           <NextScript />

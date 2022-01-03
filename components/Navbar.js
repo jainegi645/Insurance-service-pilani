@@ -87,8 +87,8 @@ function Navbar() {
         <div className="pt-8 pl-3 w-11"  onClick={closeNavbar}>
         <img src="https://img.icons8.com/ios-glyphs/30/000000/long-arrow-right.png"/> 
         </div>
-          <div className="mobileNav-header pt-4 px-3 font-bold py-1 text-primaryColor">Insurance Service Pilani </div> 
-        <nav className=" mt-14 ">
+          <div className="mobileNav-header  px-3 font-bold py-1 text-primaryColor">Insurance Service Pilani </div> 
+        <nav className=" mt-2 ">
           <ul className="grid space-x-8 space-y-10">
             <Link to="home"  smooth={true}
             duration={1000} className=" ml-8 text-lg border-b-2 border-b-yellow-400 ">Home</Link>
@@ -103,7 +103,7 @@ function Navbar() {
             <Link to="contact"  smooth={true}
             duration={1000} className="text-lg border-b-2 border-b-yellow-400">Contact Us</Link>
           </ul>
-          <div className="flex pt-6 justify-center space-x-4">
+          <div className="flex pt-6 ml-7 space-x-4">
             <a href="https://www.instagram.com/insuranceservicepilani/" className='w-10 h-2/4 lg:w-11 lg:h-2/4 cursor-pointer' target='_blank'> 
             <img src="https://img.icons8.com/fluency/40/000000/instagram-new.png" />
             </a>
