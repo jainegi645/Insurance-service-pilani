@@ -15,6 +15,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap"
             rel="stylesheet"
           />
+
           
           <title>insurance service pilani</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,6 +27,8 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+
+
       </Html>
     );
   }

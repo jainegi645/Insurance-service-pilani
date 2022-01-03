@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Products from "../components/Products";
 import Head from "next/head";
+// import Example from "../components/Example"
 
 
 
@@ -21,6 +22,7 @@ export default function Index() {
     <div>
      
       <Home />
+      {/* <Example/> */}
       <Family/>
       <Products/>
       <WhyUs/>
