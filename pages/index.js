@@ -12,7 +12,7 @@ import Testimonial from "../components/Testimonial";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Products from "../components/Products";
-import Head from "Next/head";
+import Head from "next/head";
 
 
 
