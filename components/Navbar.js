@@ -3,6 +3,7 @@ import logo from "../images/logoremovebg.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll';
+import menu from "../images/menu.png"
 
 function Navbar() {
   const[size,setSize] = useState(`0px`);
@@ -16,7 +17,7 @@ function Navbar() {
 
   return (
     <div className="">
-      <nav className="flex  top-0 justify-between items-center px-4 py-5 lg:px-14 lg:pt-7 pb-4 ">
+      <nav className="flex  top-0 justify-between items-center px-4 py-5 lg:px-14 lg:pt-7 pb-4 space-x-2">
         <div className="flex items-center text-white">
           <Image className="" src={logo} alt="logo" height="50" width="50" />
           <p className="pl-3 font-normal tracking-wider">
@@ -82,9 +83,17 @@ function Navbar() {
           </Link>
         </ul>
 
-        <img
+        {/* <img
           src="https://img.icons8.com/cotton/68/000000/menu.png"
           className="w-10 h-10 md:hidden"
+          alt="mobile drawer"
+          onClick={openNavbar}
+        /> */}
+        <Image
+          src={menu}
+          className="w-10 h-10 md:hidden"
+          height="35"
+          width="32"
           alt="mobile drawer"
           onClick={openNavbar}
         />

@@ -153,11 +153,11 @@ function Testimonial() {
                     try-hard pabst authentic.
                   </p>
                   <a className="inline-flex items-center">
-                    <img
+                    {/* <img
                       alt="testimonial"
                       src="https://dummyimage.com/107x107"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                    />
+                    /> */}
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Alper Kamu
