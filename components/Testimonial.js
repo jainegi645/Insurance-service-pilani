@@ -72,7 +72,7 @@ function Testimonial() {
                     पिलानी एवं आसपास के क्षेत्र की बहुत ही बेहतरीन सेवाएं आपके
                     द्वारा प्रदान की जा रही हैं इंश्योरेंस सर्विस पिलानी की
                     सर्विस बहुत अच्छी है मैं जब भी इनके पास आया हूं हमेशा
-                    संतुष्ट होकर जाता हूं बहुत धन्यवाद्
+                    संतुष्ट होकर जाता हूं बहुत अच्छे व्यवहार के साथ आपने अच्छा काम किया
                   </p>
                   <div className="inline-flex items-center">
                     {/* <img
@@ -98,7 +98,7 @@ function Testimonial() {
                     I took life insurance plan for my parents.It was the best choice
                     to go with insurance service pilani. Mr. Ajeet singh is
                     pro-active regarding all the services related query.
-                    customized plan are also offered.
+                    You can ask for customized plan according to requirement.
                   </p>
                   <div className="inline-flex items-center">
                     {/* <img
