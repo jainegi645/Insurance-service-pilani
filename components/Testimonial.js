@@ -111,7 +111,7 @@ function Testimonial() {
                         Jai Negi
                       </span>
                       <span className="text-gray-500 text-sm">
-                        Software DEVELOPER
+                        Software Developer
                       </span>
                     </span>
                   </div>
@@ -124,7 +124,7 @@ function Testimonial() {
                     Synth chartreuse iPhone lomo cray raw denim brunch everyday
                     carry neutra before they sold out fixie 90's microdosing.
                     Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
+                    try-hard pabst authentic.
                   </p>
                   <div className="inline-flex items-center">
                     {/* <img
@@ -150,7 +150,7 @@ function Testimonial() {
                     Synth chartreuse iPhone lomo cray raw denim brunch everyday
                     carry neutra before they sold out fixie 90's microdosing.
                     Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
+                    try-hard pabst authentic.
                   </p>
                   <a className="inline-flex items-center">
                     <img
