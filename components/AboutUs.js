@@ -42,7 +42,7 @@ function AboutUs() {
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p className="leading-relaxed  mb-4 text-gray-600  lg:text-xl">
+                <p className="leading-relaxed text-left  mb-4 text-gray-600  lg:text-xl px-5">
                 He has served in the Indian army for 19 years and now serving society by providing insurance services to protect people and their families.
                 Its been 5 years of continuous hustle and dedication that we have been in the market. Our motive has always been to serve people around us. Building trust and good relationships is always been our first underlying priority.
                 We have assured insurance protection of 153+ family and 47+ newborn babies and still counting. Protection of your love ones is in your own hands, let's ensure that today.

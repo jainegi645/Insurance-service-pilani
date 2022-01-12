@@ -16,7 +16,7 @@ function Testimonial() {
   //   cssEase: "linear"
   // };
   const settingsSmall = {
-    dots:true,
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -25,26 +25,24 @@ function Testimonial() {
     autoplaySpeed: 2600,
     cssEase: "linear",
     responsive: [
-    
       {
         breakpoint: 791,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
-    
     <div id="testimonials">
       <section className="text-gray-600 body-font">
         <div className=" px-5 mt-12 lg:mt-32 lg:flex justify-between items-center content-center lg:px-20">
@@ -63,120 +61,117 @@ function Testimonial() {
             </p>
           </div>
         </div>
-       
 
-
-          {/* for small screens */}
-          <div className=" container px-5 lg:mt-16 mx-auto">
-          <div className="">    
-          <Slider {...settingsSmall} >
-
-            <div className=" p-4  w-full">
-              <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
-               
-                <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <div className="inline-flex items-center">
-                  {/* <img
+        {/* for small screens */}
+        <div className=" container px-5 lg:mt-16 mx-auto">
+          <div className="">
+            <Slider {...settingsSmall}>
+              <div className=" p-4  w-full">
+                <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
+                  <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
+                    पिलानी एवं आसपास के क्षेत्र की बहुत ही बेहतरीन सेवाएं आपके
+                    द्वारा प्रदान की जा रही हैं इंश्योरेंस सर्विस पिलानी की
+                    सर्विस बहुत अच्छी है मैं जब भी इनके पास आया हूं हमेशा
+                    संतुष्ट होकर जाता हूं बहुत धन्यवाद्
+                  </p>
+                  <div className="inline-flex items-center">
+                    {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   /> */}
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield1
+                    <span className="flex-grow flex flex-col pl-4">
+                      <span className="title-font font-medium text-gray-900">
+                        आचार्य पी एस शेखावत
+                      </span>
+                      <span className="text-gray-500 text-sm">
+                        Teacher & ICC Fitness Club directer
+                      </span>
                     </span>
-                    <span className="text-gray-500 text-sm">UI DEVELOPER</span>
-                  </span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="p-4  w-full">
-              <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
-               
-                <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <div className="inline-flex items-center">
-                  {/* <img
+              <div className="p-4  w-full">
+                <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
+                  <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
+                    I took life insurance plan for my parents.It was the best choice
+                    to go with insurance service pilani. Mr. Ajeet singh is
+                    pro-active regarding all the services related query.
+                    customized plan are also offered.
+                  </p>
+                  <div className="inline-flex items-center">
+                    {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   /> */}
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield2
+                    <span className="flex-grow flex flex-col pl-4">
+                      <span className="title-font font-medium text-gray-900">
+                        Jai Negi
+                      </span>
+                      <span className="text-gray-500 text-sm">
+                        Software DEVELOPER
+                      </span>
                     </span>
-                    <span className="text-gray-500 text-sm">UI DEVELOPER</span>
-                  </span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="p-4 w-full">
-              <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
-               
-                <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <div className="inline-flex items-center">
-                  {/* <img
+              <div className="p-4 w-full">
+                <div className="h-full shadow-xl border-gray-300 p-8 rounded-2xl">
+                  <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
+                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                    carry neutra before they sold out fixie 90's microdosing.
+                    Tacos pinterest fanny pack venmo, post-ironic heirloom
+                    try-hard pabst authentic iceland.
+                  </p>
+                  <div className="inline-flex items-center">
+                    {/* <img
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   /> */}
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield3
+                    <span className="flex-grow flex flex-col pl-4">
+                      <span className="title-font font-medium text-gray-900">
+                        Holden Caulfield3
+                      </span>
+                      <span className="text-gray-500 text-sm">
+                        UI DEVELOPER
+                      </span>
                     </span>
-                    <span className="text-gray-500 text-sm">UI DEVELOPER</span>
-                  </span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="p-4  w-full">
-              <div className="h-full shadow-xl rounded-2xl border-gray-300 p-8 ">
-                
-                <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <a className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://dummyimage.com/107x107"
-                    className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Alper Kamu
+              <div className="p-4  w-full">
+                <div className="h-full shadow-xl rounded-2xl border-gray-300 p-8 ">
+                  <p className="leading-relaxed mb-6 text-gray-600 pt-4 lg:text-xl">
+                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                    carry neutra before they sold out fixie 90's microdosing.
+                    Tacos pinterest fanny pack venmo, post-ironic heirloom
+                    try-hard pabst authentic iceland.
+                  </p>
+                  <a className="inline-flex items-center">
+                    <img
+                      alt="testimonial"
+                      src="https://dummyimage.com/107x107"
+                      className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                    />
+                    <span className="flex-grow flex flex-col pl-4">
+                      <span className="title-font font-medium text-gray-900">
+                        Alper Kamu
+                      </span>
+                      <span className="text-gray-500 text-sm">DESIGNER</span>
                     </span>
-                    <span className="text-gray-500 text-sm">DESIGNER</span>
-                  </span>
-                </a>
+                  </a>
+                </div>
               </div>
-            </div>
-
             </Slider>
           </div>
         </div>
 
-
-          {/* after md screen size  */}
+        {/* after md screen size  */}
         {/* <div className="hidden md:block container px-5 lg:mt-16 mx-auto">
           <div >       
           <Slider {...settings} >
@@ -338,7 +333,6 @@ function Testimonial() {
 
           </div>
         </div> */}
-
       </section>
     </div>
   );
